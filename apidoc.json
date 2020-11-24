@@ -1,0 +1,11 @@
+{
+    "name": "Cxm",
+    "version": "1.0.0",
+    "description": "博客的接口文档",
+    "title": "Cxm Blog",
+    "url" : "https://mall.cxmmao.com/api-free-game",
+    "sampleUrl": "https://mall.cxmmao.com/api-free-game",
+    "footer": {
+      "title": "基于Apidoc 有问题请联系Cxm: 1532917281@qq.com"
+    }
+  }

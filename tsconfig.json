@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+      "module": "commonjs",
+      "target": "es6",
+      "noImplicitAny": false,
+      "sourceMap": true,
+      "baseUrl": "./",
+      "outDir":"build",
+      "watch":false
+  },
+  "include":[
+      "./server/*"
+  ],
+  "exclude":[
+      "views",
+      "public",
+      "node_modules"
+  ]
+}
