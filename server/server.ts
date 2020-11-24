@@ -37,10 +37,6 @@ app.use(expressJwt({
     secret: CONFIG.JWT_SERCRET
 }).unless({
     path: [
-        '/user/*',
-        '/user/upload-md',
-        '/user/md',
-        /^\/user/,
         '/file/page-view',
         '/file/detail',
         '/file/last-articles',
@@ -48,7 +44,9 @@ app.use(expressJwt({
         '/folder/folder-list',
         '/gather/tag-list',
         '/user/statistics',
-        '/user/page-view'
+        '/user/page-view',
+        '/user/login',
+        '/user/register',
     ]
 }))
 
